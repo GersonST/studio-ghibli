@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  padding: 30px;
+  margin: 30px;
+}
+
+.container .film-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .film-list li {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: rgb(89, 176, 252);
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.container .film-list li h3 {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 15px lightcoral;
+}
+
+.container .film-list li p {
+  padding: 15px;
+}
